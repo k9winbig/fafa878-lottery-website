@@ -1,0 +1,47 @@
+.main {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-inline: 10%;
+  width: 100vw;
+  background-color: var(--primary-color);
+  padding-top: 5rem;
+}
+
+.info {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info img {
+  width: 100%;
+  max-width: 700px;
+  object-fit: contain;
+}
+
+.result {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.result-all {
+  width: 100%;
+  height: 5000px;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    padding-inline: 0;
+  }
+
+  .result-all {
+    height: 12000px;
+  }
+}
